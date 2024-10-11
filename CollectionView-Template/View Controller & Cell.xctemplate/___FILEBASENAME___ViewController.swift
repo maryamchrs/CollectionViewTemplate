@@ -70,7 +70,7 @@ private extension ___VARIABLE_productName___ViewController {
         /*
          Do NOT FORGET TO REGISTER YOUR NIBs
          */
-        collectionView.registerNib(___VARIABLE_productName___CollectionViewCell.self)
+        collectionView.registerNib(___VARIABLE_cellProductName___CollectionViewCell.self)
         collectionView.delegate = self
     }
     
