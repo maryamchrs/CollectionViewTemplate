@@ -10,21 +10,20 @@
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>Options</key>
 	<array>
-		<!-- ViewController Name Input -->
-        <dict>
-            <key>Description</key>
-            <string>The name of the ViewController</string>
-            <key>Identifier</key>
-            <string>productName</string>
-            <key>Name</key>
-            <string>ViewController Name:</string>
-            <key>NotPersisted</key>
-            <true/>
-            <key>Required</key>
-            <true/>
-            <key>Type</key>
-            <string>text</string>
-        </dict>
+		<dict>
+			<key>Description</key>
+			<string>The name of the ViewController</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Name</key>
+			<string>ViewController Name:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
 		<dict>
 			<key>Default</key>
 			<string>___VARIABLE_productName:identifier___ViewController</string>
@@ -41,21 +40,20 @@
 			<key>Type</key>
 			<string>static</string>
 		</dict>
-		<!-- Cell and ViewModel Name Input -->
-        <dict>
-            <key>Description</key>
-            <string>The name for the CollectionView Cell and ViewModel</string>
-            <key>Identifier</key>
-            <string>cellProductName</string>
-            <key>Name</key>
-            <string>Cell and ViewModel Name:</string>
-            <key>NotPersisted</key>
-            <true/>
-            <key>Required</key>
-            <true/>
-            <key>Type</key>
-            <string>text</string>
-        </dict>
+		<dict>
+			<key>Description</key>
+			<string>The name for the CollectionView Cell and ViewModel</string>
+			<key>Identifier</key>
+			<string>cellProductName</string>
+			<key>Name</key>
+			<string>Cell and ViewModel Name:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
 		<dict>
 			<key>Default</key>
 			<string>___VARIABLE_cellProductName:identifier___CollectionViewCell</string>
@@ -72,7 +70,7 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_cellProductName:identifier___CollectionViewModel</string>
+			<string>___VARIABLE_cellProductName:identifier___CellViewModel</string>
 			<key>Identifier</key>
 			<string>customCellViewModel</string>
 			<key>Name</key>

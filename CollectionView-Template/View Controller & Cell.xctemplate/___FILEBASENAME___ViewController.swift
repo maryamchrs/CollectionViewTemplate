@@ -93,7 +93,7 @@ private extension ___VARIABLE_productName___ViewController {
 
  		case .main:
                 // TODO: - Complete this part based on your situation
-                break
+                return nil
             }
         }
         collectionView.setCollectionViewLayout(layout, animated: true)
@@ -125,7 +125,7 @@ private extension ___VARIABLE_productName___ViewController {
 
 		case .main:
                 // TODO: - Complete this part based on your situation
-                break
+                return UICollectionViewCell()
             }
         }
     }

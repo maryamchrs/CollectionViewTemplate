@@ -10,7 +10,7 @@ import UIKit
 
 protocol ___VARIABLE_cellProductName___CollectionCellDelegate: AnyObject {}
 
-final class ___VARIABLE_cellProductName___CollectionViewModel: DefaultCollectionViewModelProtocol {
+final class ___FILEBASENAMEASIDENTIFIER___: DefaultCollectionViewModelProtocol {
     
     var model: ___VARIABLE_cellProductName___
     weak var delegate: ___VARIABLE_cellProductName___CollectionCellDelegate?

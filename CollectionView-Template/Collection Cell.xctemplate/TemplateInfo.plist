@@ -40,7 +40,7 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_productName:identifier___CollectionViewModel</string>
+			<string>___VARIABLE_productName:identifier___CellViewModel</string>
 			<key>Identifier</key>
 			<string>customCellViewModel</string>
 			<key>Name</key>

@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class ___VARIABLE_cellProductName___CollectionViewCell: UICollectionViewCell {
+final class ___FILEBASENAMEASIDENTIFIER___: UICollectionViewCell {
     
     //MARK: - Cycle
     override func awakeFromNib() {
@@ -17,18 +17,18 @@ final class ___VARIABLE_cellProductName___CollectionViewCell: UICollectionViewCe
     }
     
     //MARK: - Properties
-    var viewModel: ___VARIABLE_cellProductName___CollectionViewModel?
+    var viewModel: ___VARIABLE_cellProductName___CellViewModel?
 }
 
 //MARK: - Methods
 //MARK: Public
-extension ___VARIABLE_cellProductName___CollectionViewCell {
-    func configCell(_ viewModel: ___VARIABLE_cellProductName___CollectionViewModel) {
+extension ___FILEBASENAMEASIDENTIFIER___ {
+    func configCell(_ viewModel: ___VARIABLE_cellProductName___CellViewModel) {
         self.viewModel = viewModel
     }
 }
 
 //MARK: Public
-private extension ___VARIABLE_cellProductName___CollectionViewCell {
+private extension ___FILEBASENAMEASIDENTIFIER___ {
     func setupView() {}
 }
