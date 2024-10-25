@@ -8,16 +8,16 @@
 
 import UIKit
 
-final class ___VARIABLE_productName___ViewController: UIViewController {
+final class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
     
     // MARK: - Object lifecycle
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-        fatalError("___VARIABLE_productName___ViewController - Initialization using coder Not Allowed.")
+        fatalError("___FILEBASENAMEASIDENTIFIER___ - Initialization using coder Not Allowed.")
     }
     
     init() {
-        super.init(nibName: ___VARIABLE_productName___ViewController.nibName, bundle: nil)
+        super.init(nibName: ___FILEBASENAMEASIDENTIFIER___.nibName, bundle: nil)
     }
     
     // MARK: - Deinit
@@ -50,7 +50,7 @@ final class ___VARIABLE_productName___ViewController: UIViewController {
 // MARK: - View Controller
 
 // MARK: Life Cycle
-extension ___VARIABLE_productName___ViewController {
+extension ___FILEBASENAMEASIDENTIFIER___ {
     override func viewDidLoad() {
         super.viewDidLoad()
         configureCollectionView()
@@ -62,10 +62,10 @@ extension ___VARIABLE_productName___ViewController {
 
 // MARK: - Methods
 // MARK: Public
-extension ___VARIABLE_productName___ViewController {}
+extension ___FILEBASENAMEASIDENTIFIER___ {}
 
 // MARK: Private
-private extension ___VARIABLE_productName___ViewController {
+private extension ___FILEBASENAMEASIDENTIFIER___ {
     func configureCollectionView() {
         /*
          Do NOT FORGET TO REGISTER YOUR NIBs
@@ -148,9 +148,9 @@ private extension ___VARIABLE_productName___ViewController {
 }
 
 // MARK: - Actions
-extension ___VARIABLE_productName___ViewController {}
+extension ___FILEBASENAMEASIDENTIFIER___ {}
 
 // MARK: - UICollectionViewDelegate
-extension ___VARIABLE_productName___ViewController: UICollectionViewDelegate {
+extension ___FILEBASENAMEASIDENTIFIER___: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {}
 }
